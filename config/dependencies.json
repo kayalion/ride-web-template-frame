@@ -1,0 +1,10 @@
+{
+    "dependencies": [
+        {
+            "interfaces": "frame\\library\\func\\TemplateFunction",
+            "class": "ride\\web\\template\\frame\\func\\TranslateTemplateFunction",
+            "id": "translate",
+            "tags": "frame"
+        }
+    ]
+}
