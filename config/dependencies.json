@@ -1,10 +1,28 @@
 {
     "dependencies": [
         {
-            "interfaces": "frame\\library\\func\\TemplateFunction",
-            "class": "ride\\web\\template\\frame\\func\\TranslateTemplateFunction",
+            "interfaces": "huqis\\func\\TemplateFunction",
+            "class": "ride\\web\\template\\huqis\\func\\DecorateTemplateFunction",
+            "id": "decorate",
+            "tags": "huqis"
+        },
+        {
+            "interfaces": "huqis\\func\\TemplateFunction",
+            "class": "ride\\web\\template\\huqis\\func\\ParsleyAttributesTemplateFunction",
+            "id": "parsleyAttributes",
+            "tags": "huqis"
+        },
+        {
+            "interfaces": "huqis\\func\\TemplateFunction",
+            "class": "ride\\web\\template\\huqis\\func\\TranslateTemplateFunction",
             "id": "translate",
-            "tags": "frame"
+            "tags": "huqis"
+        },
+        {
+            "interfaces": "huqis\\func\\TemplateFunction",
+            "class": "ride\\web\\template\\huqis\\func\\UrlTemplateFunction",
+            "id": "url",
+            "tags": "huqis"
         }
     ]
 }

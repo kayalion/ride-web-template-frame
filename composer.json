@@ -1,6 +1,6 @@
 {
-    "name": "ride/web-template-frame",
-    "description": "Frame template integration for the base web application of the Ride framework",
+    "name": "ride/web-template-huqis",
+    "description": "Huqis template integration for the base web application of the Ride framework",
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +11,7 @@
     "require": {
         "ride/app": "^1.0.0",
         "ride/app-template": "^1.0.0",
-        "ride/app-template-frame": "*",
+        "ride/app-template-huqis": "*",
         "ride/lib-common": "^1.0.0",
         "ride/lib-i18n": "^1.0.0",
         "ride/web": "^1.0.0",
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-0": {
-            "ride\\web\\template\\frame\\func\\": ["src/"]
+            "ride\\web\\template\\huqis\\func\\": ["src/"]
         }
     }
 }

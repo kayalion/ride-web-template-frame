@@ -1,9 +1,9 @@
 <?php
 
-namespace ride\web\template\frame\func;
+namespace ride\web\template\huqis\func;
 
-use frame\library\func\TemplateFunction;
-use frame\library\TemplateContext;
+use huqis\func\TemplateFunction;
+use huqis\TemplateContext;
 
 use ride\library\i18n\I18n;
 
